@@ -1,0 +1,28 @@
+{
+  "name": "algorand-deposit-example",
+  "version": "1.0.0",
+  "description": "Example of managing deposit accounts for Algorand",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "algorand",
+    "deposit",
+    "wallet",
+    "crypto",
+    "cryptocurrency"
+  ],
+  "author": "Alex Bakoushin <alex@bakoush.in>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "2.0.12"
+  },
+  "dependencies": {
+    "algosdk": "1.11.0",
+    "dotenv": "10.0.0",
+    "fastify": "3.20.1",
+    "fastify-static": "4.2.3"
+  }
+}
