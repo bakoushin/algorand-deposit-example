@@ -1,0 +1,36 @@
+.accent {
+  font-weight: bold;
+}
+
+.account {
+  padding: 8px;
+  margin-top: 24px;
+  background-color: #fff;
+  box-shadow: 0 2px 16px rgb(0 0 0 / 15%);
+}
+
+.header {
+  font-size: 16px;
+}
+
+.command {
+  display: flex;
+  align-items: center;
+  background-color: #eee;
+}
+
+.command-code {
+  margin: 0 8px 0 0;
+  padding: 4px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  min-width: 144px;
+  display: flex;
+  justify-content: center;
+}
