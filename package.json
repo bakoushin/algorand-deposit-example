@@ -16,6 +16,13 @@
   ],
   "author": "Alex Bakoushin <alex@bakoush.in>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bakoushin/algorand-deposit-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bakoushin/algorand-deposit-example/issues"
+  },
   "devDependencies": {
     "nodemon": "2.0.12"
   },
