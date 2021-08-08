@@ -14,8 +14,8 @@ A fictional `TEST` asset is created automatically in the Sandbox and is used as 
 
 ## Requirements
 
-[Algorand Sandbox](https://github.com/algorand/sandbox#readme) must be up and running in the _Private network_ mode prior to starting this app.
-Please refer to the Sandbox documentation for guidance on how to install and deploy it.
+[Algorand Sandbox](https://github.com/algorand/sandbox#readme) must be up and running in the _Private network_ mode (default one) prior to starting this app.
+Please refer to the Sandbox documentation to find the most relevant information on how to download and start it.
 
 For the best experience it is recommended to reset the Sandbox to its initial state by running the following command in the Sandbox directory:
 
