@@ -27,9 +27,9 @@
     "nodemon": "^2.0.20"
   },
   "dependencies": {
-    "algosdk": "1.11.0",
-    "dotenv": "10.0.0",
-    "fastify": "3.20.1",
+    "algosdk": "^1.21.0",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.7.0",
     "fastify-static": "^4.7.0"
   },
   "engines": {
