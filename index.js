@@ -198,7 +198,7 @@ fastify.register(require('fastify-static'), {
   // Start server
   fastify.listen(process.env.PORT, (error, address) => {
     if (error) {
-      fastify.log.error(err);
+      fastify.log.error(error);
       process.exit(1);
     }
     fastify.log.info(`Server is listening on ${address}`);
