@@ -29,7 +29,7 @@ const indexerClient = new algosdk.Indexer(
   process.env.INDEXER_PORT
 );
 
-fastify.register(require('fastify-static'), {
+fastify.register(require('@fastify/static'), {
   root: path.join(__dirname, 'public')
 });
 
@@ -196,7 +196,7 @@ fastify.register(require('fastify-static'), {
   });
 
   // Start server
-  fastify.listen(process.env.PORT, (error, address) => {
+  fastify.listen({ port: process.env.PORT }, (error, address) => {
     if (error) {
       fastify.log.error(error);
       process.exit(1);
