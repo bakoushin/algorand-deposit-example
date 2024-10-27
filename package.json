@@ -27,10 +27,10 @@
     "nodemon": "^3.0.1"
   },
   "dependencies": {
-    "@fastify/static": "^6.11.2",
-    "algosdk": "^2.7.0",
+    "@fastify/static": "^8.0.2",
+    "algosdk": "^3.0.0",
     "dotenv": "^16.0.3",
-    "fastify": "^4.7.0"
+    "fastify": "^5.0.0"
   },
   "engines": {
     "node": ">= 12.0.0"
